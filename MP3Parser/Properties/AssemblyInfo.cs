@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ijung5399")]
 [assembly: AssemblyProduct("MP3Parser")]
-[assembly: AssemblyCopyright("Copyright © ijung5399 2016")]
+[assembly: AssemblyCopyright("Copyright © Il Mo Jung 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
