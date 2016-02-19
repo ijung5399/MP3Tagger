@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3Parser", "MP3Parser\MP3Parser.csproj", "{46DB4A5A-4845-465B-A7B3-612E9A408A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3TaggerConsole", "MP3TaggerConsole\MP3TaggerConsole.csproj", "{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3Parser.Test", "MP3Parser.Test\MP3Parser.Test.csproj", "{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
