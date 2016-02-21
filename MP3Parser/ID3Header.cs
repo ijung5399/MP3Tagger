@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace MP3Parser
+namespace MP3Tagger
 {
     /*
        The ID3v2 tag header, which should be the first information in the

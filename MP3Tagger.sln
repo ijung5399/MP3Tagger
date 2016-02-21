@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
+# Visual Studio 2012
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3Parser", "MP3Parser\MP3Parser.csproj", "{46DB4A5A-4845-465B-A7B3-612E9A408A78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3Tagger", "MP3Parser\MP3Tagger.csproj", "{46DB4A5A-4845-465B-A7B3-612E9A408A78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3TaggerConsole", "MP3TaggerConsole\MP3TaggerConsole.csproj", "{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3Tagger.Console", "MP3TaggerConsole\MP3Tagger.Console.csproj", "{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3Parser.Test", "MP3Parser.Test\MP3Parser.Test.csproj", "{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}"
 EndProject
@@ -14,24 +14,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3Tagger", "MP3NunitTest\MP3Tagger.csproj", "{29700F39-6E55-4F0A-9838-F79BC2D53A65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{066A3A6D-DA25-4B7D-AF54-BE8AD8E64DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29700F39-6E55-4F0A-9838-F79BC2D53A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29700F39-6E55-4F0A-9838-F79BC2D53A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29700F39-6E55-4F0A-9838-F79BC2D53A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29700F39-6E55-4F0A-9838-F79BC2D53A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F1E498-F88E-4358-BA53-3AA18D5C1CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DB4A5A-4845-465B-A7B3-612E9A408A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
