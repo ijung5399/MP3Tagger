@@ -2,8 +2,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System.Diagnostics;
-using MP3Parser;
-namespace MP3Parser.Test
+using MP3Tagger;
+namespace MP3Tagger.Test
 {
     [TestClass]
     public class MP3ParserTest

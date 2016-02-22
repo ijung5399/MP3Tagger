@@ -37,7 +37,7 @@ namespace MP3Tagger
             Size = GetID3HeaderSize(bytes.Skip(6).Take(4).ToArray());            
         }
 
-        private int GetID3HeaderSize(byte[] bytes)
+        internal int GetID3HeaderSize(byte[] bytes)
         {
             byte mask = 0x7F;
             int totalSize = 0;
