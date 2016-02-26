@@ -33,7 +33,7 @@ namespace MP3Tagger
                     var bytes = br.ReadBytes(Constants.ID3HEADER_SIZE);
                     
                     ID3Header = ParseHeader(bytes);
-					//Frames = GetFrames(br, ID3Header.Size);
+					Frames = GetFrames(br, ID3Header.Size);
                 }
             }
         }
